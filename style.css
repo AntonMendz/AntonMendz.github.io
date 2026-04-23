@@ -41,3 +41,79 @@ header img{
     width: 60px;
 }
 
+.content{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+#sect01{
+    width: 320px;
+    height: 320px;
+    background-color: rgb(167, 204, 246);
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px rgb(99, 119, 245);
+}
+
+#sect01-title01{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgb(198, 231, 255);
+    border-radius: 5px;
+    border: rgb(78, 94, 174) solid 2px;
+    text-align: center;
+}
+
+#sect01-content01{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+#sect01-content01 label{
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+#sect01-content01 input{
+    width: 80%;
+    height: 30px;
+}
+
+#sect01-content01 button{
+    height: 30px;
+    background-color: white;
+    border: solid 1px rgb(35, 99, 188) ;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#sect01-content01 button:hover{
+    background-color: rgb(35, 99, 188) ;
+    cursor: pointer;
+    color: white;
+}
+
+
+#sect01-content01 #resultado{
+    font-size: 25px;
+}
+
+#respuesta01{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#respuesta01 img{
+    width: 120px;
+    padding-top: 20px;
+}
+
