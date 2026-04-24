@@ -1,12 +1,14 @@
 document.addEventListener("DOMContentLoaded", ()=>{
     const btn=document.getElementById("btnConvertir");
+    const input = document.getElementById("numero");
 
     if(!btn) return;
 
     btn.addEventListener("click", convertir);
 
     input.addEventListener("keydown",(e) =>{
-        if(e.key === "Enter") convertir();
+        if(e.key === "Enter") 
+            convertir();
     });
 
     function convertir(){
